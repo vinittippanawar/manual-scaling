@@ -124,12 +124,6 @@ Each should show its respective “Manual Scaling” message.
 
 You’ve now implemented Manual Scaling — three independent servers that can each handle requests individually.
 
-## 🎬 Demo Video
-
-<video width="600" controls>
-  <source src="videos/manual-scaling-demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
 ------------------------
 
