@@ -194,6 +194,12 @@ Wait until the **Status** becomes **Active**.
 ```
 http://<load-balancer-dns>
 ```
+https://github.com/user-attachments/assets/fdf64482-c9e4-4e32-a849-7f744bf253d7
+
+Each refresh should show a different server (1st, 2nd, or 3rd), proving that the load balancer is distributing traffic evenly.
+
+---
+
 
 ## 🧩 Result
 
