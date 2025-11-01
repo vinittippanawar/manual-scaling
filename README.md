@@ -124,6 +124,12 @@ Each should show its respective “Manual Scaling” message.
 
 You’ve now implemented Manual Scaling — three independent servers that can each handle requests individually.
 
+------------ 
+
+## 🎥 Demo Video
+
+[▶️ Click to Watch the Demo](https://github.com/vinittippanawar/manual-scaling/blob/main/videos/manual-scaling-demo.mp4)
+
 
 ------------------------
 
