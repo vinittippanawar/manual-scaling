@@ -91,23 +91,18 @@ Replace with this:
 
 
 Save and exit (Ctrl + O, Enter, Ctrl + X).
----------------------------------
+
+----------------------------------
 
 4. Create Additional Servers
 
 Launch 2 more EC2 instances (total 3) — you can copy the AMI from your base instance.
 
 SSH into each and update their HTML page:
-
 2nd Server:
-
 <h1>Welcome to Manual Scaling 2!</h1>
-
-
 3rd Server:
-
 <h1>Welcome to Manual Scaling 3!</h1>
-
 
 Now you have 3 web servers running NGINX, each showing a unique message.
 
@@ -131,6 +126,7 @@ Each should show its respective “Manual Scaling” message.
 🧩 Result
 
 You’ve now implemented Manual Scaling — three independent servers that can each handle requests individually.
+
 ------------------------
 
 🏁 Summary
@@ -144,8 +140,10 @@ Manually scaled architecture
 Independent web pages served from each instance
 
 This project demonstrates manual scaling fundamentals before moving to auto-scaling in AWS.
+
 -----------------------------
 ✍️ Author
 
-Vinit Tippanawar
+Vinit Tippanawar 
+
 Cloud Computing Enthusiast | AWS Learner | Practicing Scalable Architectures
