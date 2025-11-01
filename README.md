@@ -82,7 +82,7 @@ Replace with this:
       <title>Welcome</title>
   </head>
   <body>
-      <h1>Welcome to Manual Scaling </h1>
+      <h1> Welcome to Manual scaling </h1>
       <p>This web page is served from your EC2 instance.</p>
   </body>
 </html>
@@ -98,9 +98,9 @@ Launch 2 more EC2 instances (total 3) — you can copy the AMI from your base in
 
 SSH into each and update their HTML page:
 2nd Server:
-<h1>Welcome to Manual Scaling2</h1>
+<h1> Welcome to Manual Scaling2 </h1>
 3rd Server:
-<h1>Welcome to Manual Scaling3</h1>
+<h1> Welcome to Manual Scaling3 </h1>
 
 Now you have 3 web servers running NGINX, each showing a unique message.
 
@@ -110,11 +110,11 @@ Now you have 3 web servers running NGINX, each showing a unique message.
 
 Open each instance’s Public IP in your browser:
 
-http://public-ip
+http://<public-ip>
 
-http://public-ip
+http://<public-ip>
 
-http://public-ip
+http://<public-ip>
 
 Each should show its respective “Manual Scaling” message.
 
