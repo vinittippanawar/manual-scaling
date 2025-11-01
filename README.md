@@ -55,7 +55,6 @@ Launch the instance
 2. Connect to the Instance via SSH
 ssh -i ./moni.pem ec2-user@<public-ip>
 
-
 Example:
 
 ssh -i ./moni.pem ec2-user@54.227.90.252
@@ -75,7 +74,6 @@ Edit the default HTML file:
 
 sudo nano index.html
 
-
 Replace with this:
 
 <!DOCTYPE html>
@@ -84,7 +82,7 @@ Replace with this:
       <title>Welcome</title>
   </head>
   <body>
-      <h1>Welcome to Manual Scaling 1!</h1>
+      <h1>Welcome to Manual Scaling </h1>
       <p>This web page is served from your EC2 instance.</p>
   </body>
 </html>
@@ -100,24 +98,23 @@ Launch 2 more EC2 instances (total 3) — you can copy the AMI from your base in
 
 SSH into each and update their HTML page:
 2nd Server:
-<h1>Welcome to Manual Scaling 2!</h1>
+<h1>Welcome to Manual Scaling2</h1>
 3rd Server:
-<h1>Welcome to Manual Scaling 3!</h1>
+<h1>Welcome to Manual Scaling3</h1>
 
 Now you have 3 web servers running NGINX, each showing a unique message.
 
 ---------------------
 
-
 5. Test All Servers
 
 Open each instance’s Public IP in your browser:
 
-http://<public-ip-1>
+http://public-ip
 
-http://<public-ip-2>
+http://public-ip
 
-http://<public-ip-3>
+http://public-ip
 
 Each should show its respective “Manual Scaling” message.
 
