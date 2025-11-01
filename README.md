@@ -223,7 +223,7 @@ Each refresh hits a different backend server, confirming that load balancing wor
 ## 📄 Author
 
 **vinit tippanawar**  
-Cloud Computing Enthusiast | AWS Learner | Practicing High Availability Architecture  
+Cloud Computing Enthusiast | AWS Learner | 
 
 ---
 
