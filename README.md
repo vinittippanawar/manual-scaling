@@ -17,6 +17,8 @@ Scalability – You can manually add more servers when traffic increases
 
 Fault Tolerance – Reduces downtime during instance failure
 
+---------
+
 ⚙️ Prerequisites
 
 Before starting, ensure you have:
@@ -28,6 +30,8 @@ Basic knowledge of EC2, NGINX, and SSH
 A configured key pair for SSH access
 
 AWS CLI or AWS Console access with permissions
+
+--------------------
 
 🚀 Step-by-Step Implementation
 1. Create the Base EC2 Instance
@@ -87,6 +91,7 @@ Replace with this:
 
 
 Save and exit (Ctrl + O, Enter, Ctrl + X).
+---------------------------------
 
 4. Create Additional Servers
 
@@ -106,6 +111,9 @@ SSH into each and update their HTML page:
 
 Now you have 3 web servers running NGINX, each showing a unique message.
 
+---------------------
+
+
 5. Test All Servers
 
 Open each instance’s Public IP in your browser:
@@ -118,9 +126,12 @@ http://<public-ip-3>
 
 Each should show its respective “Manual Scaling” message.
 
+-------------------
+
 🧩 Result
 
 You’ve now implemented Manual Scaling — three independent servers that can each handle requests individually.
+------------------------
 
 🏁 Summary
 
@@ -133,7 +144,7 @@ Manually scaled architecture
 Independent web pages served from each instance
 
 This project demonstrates manual scaling fundamentals before moving to auto-scaling in AWS.
-
+-----------------------------
 ✍️ Author
 
 Vinit Tippanawar
