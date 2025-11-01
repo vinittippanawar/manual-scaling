@@ -75,7 +75,7 @@ Replace the content with:
 <!doctype html>
 <html>
   <body>
-    <h1>Welcome to the 1st server</h1>
+    <h1>Welcome to the manual scaling</h1>
   </body>
 </html>
 ```
@@ -93,7 +93,7 @@ Save and exit (`Ctrl + S`, `Ctrl + X`).
 http://<public-ip>
 ```
 
-If you see **“Welcome to the 1st server”**, everything works.
+If you see **“Welcome to the manual scaling”**, everything works.
 
 If you encounter errors:
 - Go to your **Security Group**
@@ -147,9 +147,9 @@ sudo nano index.html
 
 Modify each page as follows:
 
-- **1st Server:** `Welcome to the 1st server`
-- **2nd Server:** `Welcome to the 2nd server`
-- **3rd Server:** `Welcome to the 3rd server`
+- **1st Server:** `Welcome to the manual scaling`
+- **2nd Server:** `Welcome to the manual scaling2`
+- **3rd Server:** `Welcome to the manual scaling3`
 
 Save and exit.
 
